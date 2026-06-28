@@ -1,0 +1,837 @@
+                                      AWS DevOps Complete Interview Guide
+Linux
+
+1. Fundamentals
+
+	• What is Linux and why is it used in DevOps?
+	• Explain the Linux boot process.
+	• Explain the Linux file system hierarchy.
+	• Difference between Process and Thread.
+	• Difference between Zombie and Orphan processes.
+	• Difference between Hard Link and Soft Link.
+	• Difference between Cron and Anacron.
+	• Difference between TCP and UDP.
+	• Explain SSH.
+	• Explain DNS resolution.
+
+2. Commands
+
+	• How do you check open ports?
+	• How do you find which process is using a specific port?
+	• Difference between top and htop.
+	• Explain grep, awk, sed, cut, sort, and uniq.
+	• Explain find vs locate.
+	• How do you monitor CPU, memory, and disk usage?
+	• Which Linux commands do you use daily?
+
+3. Security
+
+	• Explain Linux file permissions.
+	• Difference between User, Group, and Others.
+	• What is sudo?
+	• How do you secure a Linux server?
+
+4. Troubleshooting
+
+	• Server is slow. How do you troubleshoot?
+	• Disk is full. What steps would you take?
+	• How do you analyze application logs?
+	• How do you troubleshoot high CPU or memory utilization?
+
+Git & GitHub
+
+1. Fundamentals
+
+	• What is Git?
+	• Difference between Git and GitHub.
+	• Explain the Git workflow.
+	• Explain your Git branching strategy.
+	• Difference between Git Merge, Fetch, Pull, and Rebase.
+	• What is Cherry-pick?
+	• What is Squash Merge?
+
+2. Commands
+
+	• Which Git commands do you use daily?
+	• Difference between git reset, git revert, and git restore.
+	• How do you revert a bad commit?
+
+3. Best Practices
+
+	• How do you protect the main branch?
+	• How do you manage code reviews?
+	• What branching strategy do you follow (GitFlow, Trunk-Based, Feature Branching)?
+
+4. Troubleshooting
+
+	• How do you resolve merge conflicts?
+	• How do you recover deleted commits?
+	• How do you handle accidental force pushes?
+
+
+Maven
+
+1. Fundamentals
+
+	• What is Maven?
+	• Explain Maven architecture.
+	• Explain the Maven lifecycle.
+	• What is pom.xml?
+	• Difference between compile, package, install, and deploy.
+	• Difference between JAR and WAR.
+
+2. Dependency Management
+
+	• How does Maven resolve dependencies?
+	• What are dependency scopes?
+	• What are SNAPSHOT versions?
+
+3. Packaging
+
+	• How do you package an application?
+	• How do you deploy artifacts?
+
+4. Commands
+
+	• Which Maven commands do you use daily?
+
+
+Jenkins
+
+1. Fundamentals
+
+	• What is Jenkins?
+	• Explain Jenkins architecture.
+	• Explain Jenkins Master-Agent architecture.
+	• How do Master and Agents communicate?
+	• Difference between Freestyle and Pipeline jobs.
+	• Difference between Declarative and Scripted Pipelines.
+	• What type of pipeline have you used?
+	• What are Environment Variables?
+	• What is agent any?
+	• Difference between agent any and a specific agent label.
+
+2. Pipeline
+
+	• Explain your CI/CD pipeline end to end.
+	• Explain each stage in your pipeline.
+	• How do you trigger pipelines automatically?
+	• What are Shared Libraries?
+	• How do you reuse pipeline code?
+
+3. Integrations
+
+	• How do you integrate SonarQube with Jenkins?
+	• How do you integrate Nexus with Jenkins?
+	• How do you integrate Docker with Jenkins?
+	• How do you deploy to Kubernetes using Jenkins?
+
+4. Security & Optimization
+
+	• How do you secure Jenkins?
+	• How do you manage credentials?
+	• How do you optimize Jenkins pipelines?
+	• How do you improve pipeline execution time?
+
+5. Troubleshooting
+
+	• How do you debug a failed pipeline?
+	• How do you troubleshoot Jenkins agent issues?
+	• Pipeline is stuck. What do you check?
+	• Jenkins is slow. How do you optimize it?
+
+SonarQube
+
+1. Fundamentals
+
+	• What is SonarQube? 
+	• Why is SonarQube used? 
+	• Explain SonarQube architecture. 
+	• What are Quality Gates? 
+	• What are Quality Profiles? 
+	• What programming languages does SonarQube support? 
+
+2. Configuration
+
+	• How do you configure SonarQube with Jenkins? 
+	• How do you configure SonarScanner? 
+	• How do you configure projects in SonarQube? 
+	• How do you exclude files or directories from analysis? 
+
+3. Security & Code Quality
+
+	• What types of issues does SonarQube detect? 
+	• What are Bugs, Vulnerabilities, and Code Smells? 
+	• What is Technical Debt? 
+	• How do you enforce code quality before deployment? 
+
+4. Troubleshooting
+
+	• Quality Gate failed. What would you do? 
+	• Sonar analysis is not generating reports. How do you troubleshoot? 
+
+
+Artifact Repository (Nexus / Artifactory)
+
+1. Fundamentals
+
+	• What is an Artifact Repository?
+	• Why do we need Nexus/Artifactory?
+	• Difference between Snapshot and Release repositories.
+
+2. Artifact Management
+
+	• Where do you store artifacts?
+	• How do you version artifacts?
+	• How do you promote artifacts across environments?
+
+3. Security
+
+	• How do you secure Nexus?
+	• How do you control repository access?
+
+4. Troubleshooting
+
+	• Artifact upload failed. How do you troubleshoot? 
+	• Repository storage is full. What steps would you take? 
+
+
+Docker
+
+1. Fundamentals
+
+	• What is Docker?
+	• Difference between Docker and Virtual Machines.
+	• Explain Docker architecture.
+	• Difference between Dockerfile, Image, and Container.
+
+2. Dockerfile
+
+	• Explain Dockerfile and its instructions.
+	• Write a multi-stage Dockerfile.
+	• Why do we use multi-stage builds?
+	• Difference between CMD and ENTRYPOINT.
+	• Difference between COPY and ADD.
+	• Difference between ARG and ENV.
+
+3. Networking & Storage
+
+	• How do you expose a container on a specific port?
+	• How do containers communicate?
+	• What are Docker volumes?
+
+4. Docker Compose
+
+	• What is Docker Compose?
+	• Where do you use Docker Compose?
+	• Why use Docker Compose if Kubernetes already exists?
+
+5. Commands
+
+	• Which Docker commands do you use daily?
+	• How do you list running and stopped containers?
+	• How do you inspect images and containers?
+
+6. Security & Optimization
+
+	• How do you reduce Docker image size?
+	• How do you scan Docker images for vulnerabilities?
+
+7. Troubleshooting
+	• How do you debug a failed container?
+	• Container exits immediately after startup. What do you do?
+
+Kubernetes
+
+1. Fundamentals
+
+	• Explain Kubernetes architecture.
+	• Explain Control Plane components.
+	• Explain Worker Node components.
+	• What happens if etcd goes down?
+	• What is a Pod?
+	• What are ReplicaSets and Replicas?
+	• Difference between Deployment, StatefulSet, and DaemonSet.
+	• What is a Job? What is a CronJob?
+
+2. Networking
+
+	• What are Kubernetes Services?
+	• Types of Services.
+	• Difference between ClusterIP, NodePort, and LoadBalancer.
+	• What is Service Discovery?
+	• How do Pods communicate within a cluster?
+	• How do microservices communicate with each other?
+	• How do you expose an application?
+
+3. Ingress
+
+	• What is Ingress?
+	• What is an Ingress Controller?
+	• Difference between Ingress and LoadBalancer.
+	• Which Ingress Controller have you used?
+	• Difference between Layer 4 and Layer 7 routing.
+	• What routing methods does Ingress support (Host-based, Path-based, Header-based)?
+
+4. Storage
+
+	• What are PV and PVC?
+	• What is a StorageClass?
+	• Have you used persistent storage in your project?
+
+5. Configuration Management
+
+	• What are ConfigMaps?
+	• What are Secrets?
+	• How do you inject confidential data into Pods?
+	• How do you configure database connectivity for Pods?
+
+6. Scheduling
+
+	• What is Node Affinity?
+	• What is Pod Affinity?
+	• What is Pod Anti-Affinity?
+	• What are Taints and Tolerations?
+	• How do you schedule Pods on specific nodes while spreading replicas across nodes?
+
+7. Deployment Strategies
+
+	• What deployment strategies do you know?
+	• Which strategy have you used?
+	• Explain Rolling Update.
+	• Explain Blue-Green Deployment.
+	• Explain Canary Deployment.
+	• How do you manage database changes during Blue-Green deployments?
+	• How do you rollback a failed deployment?
+
+8. Cluster Operations
+
+	• What type of Kubernetes cluster are you using?
+	• How do you upgrade a Kubernetes cluster?
+	• How do you drain a node?
+	• What does the cordon command do?
+	• What is a Pod Disruption Budget?
+
+9. Security
+
+	• How do you secure Kubernetes Secrets?
+	• Explain RBAC.
+	• Explain Service Accounts.
+	• Explain Network Policies.
+
+10. Commands
+
+	• Which kubectl commands do you use daily?
+
+11. Troubleshooting
+
+	• How do you troubleshoot CrashLoopBackOff?
+	• How do you troubleshoot ImagePullBackOff?
+	• How do you troubleshoot Pending Pods?
+	• What would you check if a Deployment succeeds but the application is inaccessible?
+	• Node is NotReady. What steps would you take?
+
+
+Helm
+
+1. Fundamentals
+
+	• What is Helm? 
+	• Why do we use Helm? 
+	• Difference between Helm and Kustomize. 
+	• Explain Helm architecture. 
+
+2. Chart Management
+
+	• Explain the structure of a Helm chart. 
+	• What is values.yaml? 
+	• What is Chart.yaml? 
+	• What are Helm templates? 
+	• What are Helm hooks? 
+
+3. Commands
+
+	• Which Helm commands do you use daily? 
+	• How do you install a Helm chart? 
+	• How do you upgrade a Helm release? 
+	• How do you rollback a Helm release? 
+
+4. Troubleshooting
+
+	• Helm upgrade failed. What do you do? 
+	• How do you debug Helm template rendering? 
+
+
+Terraform
+
+1. Fundamentals
+
+	• What is Infrastructure as Code (IaC)?
+	• Why Terraform?
+	• Why Terraform over other IaC tools?
+	• Explain Terraform architecture.
+	• Explain the Terraform workflow.
+	• Explain the Terraform lifecycle.
+
+2. Configuration
+
+	• What are Variables?
+	• What are Locals?
+	• What is a tfvars file?
+	• Difference between Resource and Data Source.
+	• Difference between count and for_each.
+	• What are Modules?
+	• How do you apply a specific module?
+	• What are Workspaces?
+	• What are Terraform lifecycle meta-arguments (create_before_destroy, prevent_destroy, ignore_changes)?
+
+3. State Management
+
+	• What is the Terraform State file?
+	• Where do you store the State file?
+	• Why should the State file not be stored in Git?
+	• How do you secure the State file?
+	• How do you handle State locking?
+
+4. Deployment
+
+	• How do you provision infrastructure using Terraform?
+	• What is the purpose of terraform init, plan, apply, and destroy?
+	• How do you manage multiple environments?
+
+5. Security
+
+	• How do you handle sensitive data in Terraform?
+	• How do you secure secrets in Terraform?
+	• How do you integrate Terraform with secret management solutions?
+
+6. Troubleshooting
+
+	• What happens if two engineers run terraform apply simultaneously?
+	• terraform apply fails after creating some resources. How do you recover?
+	• How do you detect and resolve infrastructure drift?
+	• What if someone manually changes resources in the cloud console?
+	• How do you recover from a corrupted or lost State file?
+
+
+
+
+AWS
+
+1. Compute (EC2 + Auto Scaling)
+
+EC2
+	• How do you design EC2 infrastructure for a production application? 
+	• How do you choose the right EC2 instance type? 
+	• How do you troubleshoot an unreachable EC2 instance? 
+	• EC2 instance CPU is high. How do you investigate? 
+	• EC2 instance is running but application is not accessible. What will you check? 
+	• How do you securely access EC2 instances? 
+	• How do you automate EC2 provisioning? 
+
+AMI
+	• How do you create and use AMIs? 
+	• Difference between AMI and Snapshot. 
+	• How do you manage AMI versions? 
+	• How do you perform application deployment using AMI? 
+
+Instance Types
+	• When would you use Spot Instances? 
+	• What happens if a Spot Instance is terminated? 
+	• Difference between Spot, On-Demand, and Reserved Instances. 
+	• How do you reduce EC2 cost? 
+
+2. Auto Scaling Group (ASG)
+
+Architecture
+	• Explain ASG architecture. 
+	• How does ASG work with Load Balancer? 
+	• Explain the EC2 lifecycle inside ASG. 
+	• How does ASG replace unhealthy instances? 
+	• How does ASG maintain desired capacity? 
+
+Scaling
+	• What are minimum, maximum, and desired capacity? 
+	• Explain different scaling policies. 
+	• Difference between Target Tracking and Step Scaling. 
+	• How do you configure CPU-based scaling? 
+	• How do you scale based on application traffic? 
+	• How do you handle sudden traffic spikes? 
+
+Deployment
+	• How do you deploy new application versions in ASG? 
+	• Difference between in-place deployment and immutable deployment. 
+	• How do you perform zero-downtime deployment using ASG? 
+	• Explain Blue-Green deployment using ASG. 
+	• How do you update Launch Template versions? 
+
+Troubleshooting
+	• ASG is not launching instances. What do you check? 
+	• Instances are launching and immediately terminating. Why? 
+	• ASG is scaling but users still see errors. What do you check? 
+	• New instances are unhealthy in Load Balancer. How do you troubleshoot? 
+
+3. Networking (VPC)
+
+VPC Design
+	• Explain your production VPC architecture. 
+	• How do you design a highly available VPC? 
+	• Difference between Public and Private Subnets. 
+	• Why do we keep application servers in private subnets? 
+	• How do private servers access the internet? 
+
+Components
+	• How does Internet Gateway work? 
+	• How does NAT Gateway work? 
+	• Difference between Internet Gateway and NAT Gateway. 
+	• Explain Route Tables. 
+	• How does routing happen inside VPC? 
+	• Difference between Public Route Table and Private Route Table. 
+
+Security
+	• Difference between Security Groups and NACLs. 
+	• When would you use NACL instead of Security Group? 
+	• How do you troubleshoot network connectivity between servers? 
+	• How do you restrict access between application and database layers? 
+
+4. Load Balancing
+
+ALB / NLB
+	• Difference between ALB and NLB. 
+	• When would you choose ALB vs NLB? 
+	• Explain how ALB routes traffic. 
+	• What is a Target Group? 
+	• How does health check work? 
+	• What happens when targets fail health checks? 
+
+Kubernetes Integration
+	• How do you expose Kubernetes applications using AWS Load Balancers? 
+	• Difference between Kubernetes Service LoadBalancer and Ingress with ALB. 
+	• How does AWS Load Balancer Controller work? 
+	• How do you troubleshoot ALB not routing traffic? 
+
+5. IAM & Security
+
+IAM
+	• How do you design IAM access in AWS? 
+	• Difference between IAM User, Group, and Role. 
+	• Why do applications use IAM Roles instead of Access Keys? 
+	• Explain IAM policy evaluation logic. 
+	• How do you implement least privilege access? 
+
+Security Best Practices
+	• How do you secure AWS accounts? 
+	• How do you prevent access key leakage? 
+	• How do you implement MFA? 
+	• How do you audit IAM activities? 
+	• How do you manage cross-account access? 
+
+6. Storage (S3, EBS, EFS)
+
+S3
+	• How do you design S3 storage for production? 
+	• Difference between S3 Storage Classes. 
+	• Explain S3 Versioning. 
+	• Explain S3 Lifecycle Policies. 
+	• How do you secure S3 buckets? 
+	• How do you prevent accidental S3 deletion? 
+	• Difference between S3 encryption types. 
+
+EBS
+	• Difference between EBS and Instance Store. 
+	• How do you increase EBS volume size? 
+	• How do you take EBS backups? 
+	• What happens when an EC2 instance fails? 
+
+EFS
+	• Difference between EBS and EFS. 
+	• When would you use EFS? 
+	• How do multiple servers access EFS? 
+
+7. Database (RDS)
+
+Architecture
+	• How do you design a production database architecture in AWS? 
+	• Difference between RDS and database installed on EC2. 
+	• Explain RDS architecture. 
+	• How does RDS provide high availability? 
+
+Availability
+	• Difference between Multi-AZ and Read Replica. 
+	• When do you use Multi-AZ? 
+	• When do you use Read Replica? 
+	• How does database failover work? 
+	• What happens when the primary database fails? 
+
+Backup & Recovery
+	• How do you backup RDS? 
+	• Difference between Snapshot and Automated Backup. 
+	• Explain Point-in-Time Recovery. 
+	• How do you restore an RDS database? 
+
+Scaling
+	• How do you scale RDS? 
+	• Difference between vertical and horizontal scaling. 
+	• How do you handle database performance issues? 
+	• How do you identify slow queries? 
+
+Security
+	• How do you secure RDS? 
+	• How do applications securely connect to databases? 
+	• How do you manage database credentials? 
+	• How do you rotate database passwords? 
+
+8. Database + Kubernetes
+
+	• How does Kubernetes application connect to AWS RDS? 
+	• Where do you store database credentials? 
+	• How do you inject database secrets into Pods? 
+	• How do you troubleshoot database connectivity from Pods? 
+	• Should databases run inside Kubernetes? Explain. 
+	• How do you handle database migrations during deployments? 
+
+9. Monitoring & Logging
+
+CloudWatch
+
+	• How do you monitor AWS infrastructure? 
+	• What CloudWatch metrics do you monitor for EC2? 
+	• How do you create CloudWatch alarms? 
+	• How do you configure notifications? 
+	• How do you troubleshoot missing metrics? 
+
+CloudTrail
+
+	• How do you audit AWS activities? 
+	• How do you find who deleted a resource? 
+	• Difference between CloudWatch and CloudTrail. 
+
+10. Secrets Management
+
+	• How do you manage secrets in AWS? 
+	• Difference between Secrets Manager and Parameter Store. 
+	• How do applications retrieve secrets securely? 
+	• How do you rotate secrets automatically? 
+	• Explain AWS KMS usage. 
+
+11. Disaster Recovery & High Availability
+
+	• How do you design a highly available AWS architecture? 
+	• Explain Multi-AZ architecture. 
+	• Explain backup and recovery strategy. 
+	• Difference between Backup and Disaster Recovery. 
+	• Explain RTO and RPO. 
+	• How do you handle region-level failure? 
+
+12. Production Scenario Questions
+
+	• EC2 instance is unreachable. Explain troubleshooting steps. 
+	• Application is slow but CPU is normal. What will you check? 
+	• ASG launched new instances but traffic is not reaching them. 
+	• Database CPU is high. How do you troubleshoot? 
+	• Application cannot connect to RDS. 
+	• Private subnet servers cannot access internet. 
+	• Users receive 503 errors from ALB. 
+	• S3 bucket was accidentally deleted. How do you recover? 
+	• Production database failed. What happens next? 
+	• Traffic increased suddenly by 10x. How will you scale the application? 
+	• How would you design AWS architecture for a highly available application? 
+	• How do you implement zero downtime deployment using AWS services?
+
+
+Monitoring (Prometheus & Grafana)
+   
+1. Fundamentals
+
+	• What is Prometheus? 
+	• Explain Prometheus architecture. 
+	• What is Grafana? 
+	• What is Alertmanager? 
+
+2. Metrics
+
+	• What metrics do you monitor? 
+	• Difference between Metrics, Logs, and Traces. 
+	• What are Exporters? 
+	• Explain PromQL. 
+
+3. Dashboards
+
+	• How do you create Grafana dashboards? 
+	• What dashboards do you maintain? 
+
+4. Alerts
+
+	• How do you configure alerts? 
+	• How do you avoid alert fatigue?
+ 
+5. Troubleshooting
+
+	• Prometheus is not scraping metrics. How do you troubleshoot? 
+	• Grafana dashboard is not showing data. What would you check? 
+
+
+Logging (ELK / EFK)
+
+1. Fundamentals
+
+	• Explain the ELK stack. 
+	• Explain the EFK stack. 
+	• Difference between Fluentd and Fluent Bit. 
+	• Difference between Logstash and Fluentd. 
+
+2. Logging Pipeline
+
+	• How are application logs collected? 
+	• How are Kubernetes logs centralized? 
+	• How do you search logs? 
+
+3. Troubleshooting
+
+	• Logs are missing from Kibana. How do you troubleshoot? 
+	• Fluent Bit is not forwarding logs. What would you check? 
+
+
+Ansible
+
+1. Fundamentals
+
+	• What is Ansible? 
+	• Why Ansible? 
+	• Explain Ansible architecture. 
+	• What is Agentless Architecture? 
+
+2. Configuration
+
+	• What are Inventories? 
+	• What are Playbooks? 
+	• What are Roles? 
+	• What are Variables? 
+	• What are Templates? 
+
+3. Security
+
+	• What is Ansible Vault? 
+	• How do you secure secrets? 
+
+4. Troubleshooting
+
+	• Playbook execution failed. How do you troubleshoot? 
+	• Hosts are unreachable. What would you check? 
+
+DevSecOps
+
+1. Fundamentals
+
+	• What is DevSecOps? 
+	• What is Shift Left Security? 
+	• Difference between SAST, DAST, and SCA. 
+
+	• 2. Security Tools
+
+	• How do you integrate Trivy into Jenkins? 
+	• How do you scan Docker images? 
+	• How do you scan Kubernetes manifests? 
+	• How do you scan Terraform code? 
+
+3. Secrets
+
+	• How do you manage secrets securely? 
+	• How do you prevent secrets from being committed to Git? 
+
+4. Best Practices
+
+	• How do you secure a CI/CD pipeline? 
+	• How do you implement security gates in deployments? 
+
+CI/CD
+
+1. Fundamentals
+
+	• What is Continuous Integration? 
+	• What is Continuous Delivery? 
+	• What is Continuous Deployment? 
+	• Difference between Continuous Delivery and Continuous Deployment. 
+
+2. Pipeline
+
+	• Explain your CI/CD pipeline end to end. 
+	• How do you automate deployments? 
+	• How do you implement approval gates? 
+	• How do you version releases? 
+
+3. Rollback
+
+	• How do you rollback a deployment? 
+	• How do you handle failed releases? 
+
+Microservices
+
+1. Fundamentals
+
+	• What are Microservices? 
+	• Advantages and disadvantages of Microservices. 
+	• Difference between Monolithic and Microservices architectures. 
+
+2. Communication
+	
+	• How do microservices communicate? 
+	• What is Service Discovery? 
+	• How do you manage configuration across services? 
+
+3. Deployment
+	
+	• How do you deploy multiple microservices? 
+	• How do you manage independent releases? 
+
+DevOps & SRE Concepts
+
+1. Fundamentals
+
+	• What is DevOps? 
+	• What is SRE? 
+	• Difference between DevOps and SRE. 
+	• Explain Infrastructure as Code. 
+	• Explain Immutable Infrastructure. 
+
+2. Reliability
+	
+	• What are SLI, SLO, and SLA? 
+	• What is MTTR? 
+	• What is MTBF? 
+
+3. Automation
+	
+	• Why is automation important? 
+	• Which tasks have you automated? 
+
+Frequently Asked HR & Project Questions
+Project
+	• Explain your current project architecture. 
+	• Explain your roles and responsibilities. 
+	• Describe your daily activities. 
+	• Which DevOps tools have you used in your project, and why? 
+	• Explain a challenging issue you solved in production. 
+	• Explain your complete deployment workflow. 
+	• Explain your monitoring strategy. 
+	• Explain your disaster recovery strategy. 
+
+Experience
+	• Tell me about yourself. 
+	• Why are you looking for a change? 
+	• What was your biggest production issue? 
+	• Describe a time you improved a CI/CD pipeline. 
+	• Describe a time you automated a manual process. 
+	• Describe a time you handled an outage.
+
+Common Scenario-Based Questions
+	• Explain your complete CI/CD pipeline from code commit to production.
+	• Describe the DevOps tools used in your project and why they were chosen.
+	• How do you perform a production deployment?
+	• How do you implement zero-downtime deployments?
+	• What is your rollback strategy if a deployment fails?
+	• Walk through how you would troubleshoot a production outage.
+	• How do you monitor applications and infrastructure after deployment?
+	• How do you ensure security throughout your CI/CD pipeline?
+	• Describe a challenging production issue you resolved and the steps you took.
+	• How do you improve the reliability, scalability, and performance of your DevOps pipeline?
