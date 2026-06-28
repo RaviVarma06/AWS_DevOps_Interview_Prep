@@ -1,4 +1,3 @@
-#Don't Worry this is not a java code, just for better readability i have used .java extension 😄
 Complete DevOps Interview Question Bank
 ---------------------------------------------------------------------------------------------------------------------------------------------
 1. Linux:
