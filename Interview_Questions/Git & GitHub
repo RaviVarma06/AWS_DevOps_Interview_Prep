@@ -1,0 +1,29 @@
+Git & GitHub
+
+1. Fundamentals
+
+	• What is Git?
+	• Difference between Git and GitHub.
+	• Explain the Git workflow.
+	• Explain your Git branching strategy.
+	• Difference between Git Merge, Fetch, Pull, and Rebase.
+	• What is Cherry-pick?
+	• What is Squash Merge?
+
+2. Commands
+
+	• Which Git commands do you use daily?
+	• Difference between git reset, git revert, and git restore.
+	• How do you revert a bad commit?
+
+3. Best Practices
+
+	• How do you protect the main branch?
+	• How do you manage code reviews?
+	• What branching strategy do you follow (GitFlow, Trunk-Based, Feature Branching)?
+
+4. Troubleshooting
+
+	• How do you resolve merge conflicts?
+	• How do you recover deleted commits?
+	• How do you handle accidental force pushes?
