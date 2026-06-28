@@ -1,0 +1,39 @@
+Linux
+
+1. Fundamentals
+
+	• What is Linux and why is it used in DevOps?
+	• Explain the Linux boot process.
+	• Explain the Linux file system hierarchy.
+	• Difference between Process and Thread.
+	• Difference between Zombie and Orphan processes.
+	• Difference between Hard Link and Soft Link.
+	• Difference between Cron and Anacron.
+	• Difference between TCP and UDP.
+	• Explain SSH.
+	• Explain DNS resolution.
+
+2. Commands
+
+	• How do you check open ports?
+	• How do you find which process is using a specific port?
+	• Difference between top and htop.
+	• Explain grep, awk, sed, cut, sort, and uniq.
+	• Explain find vs locate.
+	• How do you monitor CPU, memory, and disk usage?
+	• Which Linux commands do you use daily?
+
+3. Security
+
+	• Explain Linux file permissions.
+	• Difference between User, Group, and Others.
+	• What is sudo?
+	• How do you secure a Linux server?
+
+4. Troubleshooting
+
+	• Server is slow. How do you troubleshoot?
+	• Disk is full. What steps would you take?
+	• How do you analyze application logs?
+	• How do you troubleshoot high CPU or memory utilization?
+
