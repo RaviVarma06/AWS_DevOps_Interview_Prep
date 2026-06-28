@@ -1,0 +1,23 @@
+Artifact Repository (Nexus / Artifactory)
+
+1. Fundamentals
+
+	• What is an Artifact Repository?
+	• Why do we need Nexus/Artifactory?
+	• Difference between Snapshot and Release repositories.
+
+2. Artifact Management
+
+	• Where do you store artifacts?
+	• How do you version artifacts?
+	• How do you promote artifacts across environments?
+
+3. Security
+
+	• How do you secure Nexus?
+	• How do you control repository access?
+
+4. Troubleshooting
+
+	• Artifact upload failed. How do you troubleshoot? 
+	• Repository storage is full. What steps would you take? 
