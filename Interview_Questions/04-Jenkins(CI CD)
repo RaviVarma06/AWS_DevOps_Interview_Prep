@@ -41,3 +41,25 @@ Jenkins
 	• How do you troubleshoot Jenkins agent issues?
 	• Pipeline is stuck. What do you check?
 	• Jenkins is slow. How do you optimize it?
+
+CI/CD
+
+1. Fundamentals
+
+	• What is Continuous Integration? 
+	• What is Continuous Delivery? 
+	• What is Continuous Deployment? 
+	• Difference between Continuous Delivery and Continuous Deployment. 
+
+2. Pipeline
+
+	• Explain your CI/CD pipeline end to end. 
+	• How do you automate deployments? 
+	• How do you implement approval gates? 
+	• How do you version releases? 
+
+3. Rollback
+
+	• How do you rollback a deployment? 
+	• How do you handle failed releases? 
+
