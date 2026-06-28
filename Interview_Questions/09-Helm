@@ -1,0 +1,28 @@
+Helm
+
+1. Fundamentals
+
+	• What is Helm? 
+	• Why do we use Helm? 
+	• Difference between Helm and Kustomize. 
+	• Explain Helm architecture. 
+
+2. Chart Management
+
+	• Explain the structure of a Helm chart. 
+	• What is values.yaml? 
+	• What is Chart.yaml? 
+	• What are Helm templates? 
+	• What are Helm hooks? 
+
+3. Commands
+
+	• Which Helm commands do you use daily? 
+	• How do you install a Helm chart? 
+	• How do you upgrade a Helm release? 
+	• How do you rollback a Helm release? 
+
+4. Troubleshooting
+
+	• Helm upgrade failed. What do you do? 
+How do you debug Helm template rendering? 
