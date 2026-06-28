@@ -1,0 +1,78 @@
+ArgoCD 
+
+1. Fundamentals
+
+What is ArgoCD and why do we use it?
+Explain how ArgoCD works in a GitOps model.
+Difference between traditional CI/CD deployment and ArgoCD-based deployment.
+Why is ArgoCD called a pull-based deployment tool?
+Explain the complete deployment flow using ArgoCD.
+
+2. Architecture
+
+Explain ArgoCD architecture.
+What are the main components of ArgoCD?
+What is Application Controller?
+What is Repo Server?
+What is API Server?
+How does ArgoCD communicate with Kubernetes?
+
+3. Application & Sync
+
+What is an ArgoCD Application?
+Explain ArgoCD Application YAML.
+Difference between Application and ApplicationSet.
+What is Sync in ArgoCD?
+Difference between Manual Sync and Automated Sync.
+What is Auto-Sync?
+What is Self-Heal?
+What is Auto-Prune?
+
+4. Git Repository & Deployment
+
+How does ArgoCD detect changes from Git?
+What happens when a developer pushes a new Kubernetes manifest?
+How does ArgoCD compare desired state and actual state?
+How do you connect ArgoCD with a private Git repository?
+How do you manage multiple environments (Dev/UAT/Prod) using ArgoCD?
+
+5. Helm / Kubernetes Integration
+
+How do you deploy Helm charts using ArgoCD?
+How do you manage environment-specific values in Helm with ArgoCD?
+Difference between Helm deployment and ArgoCD Helm deployment.
+How does ArgoCD deploy Kubernetes manifests?
+How do you handle Kubernetes secrets in ArgoCD?
+
+6. Troubleshooting (Most Important)
+
+ArgoCD application shows OutOfSync. How do you troubleshoot?
+ArgoCD sync failed. What steps will you check?
+Git changes are not reflecting in Kubernetes. What could be the issue?
+Application is Healthy but application is not working. How do you debug?
+ArgoCD cannot connect to Kubernetes cluster. How do you troubleshoot?
+ArgoCD cannot access Git repository. What will you check?
+
+7. Security
+
+How do you secure ArgoCD?
+Explain ArgoCD RBAC.
+How do you manage users and access in ArgoCD?
+How do you manage secrets securely in GitOps?
+How do you integrate ArgoCD with Vault / AWS Secrets Manager?
+
+8. Production Scenarios
+
+Someone manually changed a Kubernetes resource. What happens in ArgoCD?
+How do you rollback a deployment using ArgoCD?
+How do you handle failed production deployment?
+How do you implement zero-downtime deployment using ArgoCD?
+How do you manage multiple Kubernetes clusters using ArgoCD?
+
+9. Project-Based Questions
+
+Explain your ArgoCD implementation in your project.
+What was your GitOps repository structure?
+How did you manage application deployments across environments?
+How did you integrate Jenkins/GitHub Actions with ArgoCD?
+What challenges did you face while implementing ArgoCD?
