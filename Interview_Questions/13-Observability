@@ -1,0 +1,51 @@
+Monitoring (Prometheus & Grafana)
+   
+1. Fundamentals
+
+	• What is Prometheus? 
+	• Explain Prometheus architecture. 
+	• What is Grafana? 
+	• What is Alertmanager? 
+
+2. Metrics
+
+	• What metrics do you monitor? 
+	• Difference between Metrics, Logs, and Traces. 
+	• What are Exporters? 
+	• Explain PromQL. 
+
+3. Dashboards
+
+	• How do you create Grafana dashboards? 
+	• What dashboards do you maintain? 
+
+4. Alerts
+
+	• How do you configure alerts? 
+	• How do you avoid alert fatigue?
+ 
+5. Troubleshooting
+
+	• Prometheus is not scraping metrics. How do you troubleshoot? 
+	• Grafana dashboard is not showing data. What would you check? 
+
+
+Logging (ELK / EFK)
+
+1. Fundamentals
+
+	• Explain the ELK stack. 
+	• Explain the EFK stack. 
+	• Difference between Fluentd and Fluent Bit. 
+	• Difference between Logstash and Fluentd. 
+
+2. Logging Pipeline
+
+	• How are application logs collected? 
+	• How are Kubernetes logs centralized? 
+	• How do you search logs? 
+
+3. Troubleshooting
+
+	• Logs are missing from Kibana. How do you troubleshoot? 
+Fluent Bit is not forwarding logs. What would you check? 
