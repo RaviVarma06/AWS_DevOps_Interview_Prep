@@ -1,0 +1,18 @@
+Microservices
+
+1. Fundamentals
+
+	• What are Microservices? 
+	• Advantages and disadvantages of Microservices. 
+	• Difference between Monolithic and Microservices architectures. 
+
+2. Communication
+	
+	• How do microservices communicate? 
+	• What is Service Discovery? 
+	• How do you manage configuration across services? 
+
+3. Deployment
+	
+	• How do you deploy multiple microservices? 
+	• How do you manage independent releases? 
