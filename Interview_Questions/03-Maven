@@ -1,0 +1,25 @@
+Maven
+
+1. Fundamentals
+
+	• What is Maven?
+	• Explain Maven architecture.
+	• Explain the Maven lifecycle.
+	• What is pom.xml?
+	• Difference between compile, package, install, and deploy.
+	• Difference between JAR and WAR.
+
+2. Dependency Management
+
+	• How does Maven resolve dependencies?
+	• What are dependency scopes?
+	• What are SNAPSHOT versions?
+
+3. Packaging
+
+	• How do you package an application?
+	• How do you deploy artifacts?
+
+4. Commands
+
+Which Maven commands do you use daily?
