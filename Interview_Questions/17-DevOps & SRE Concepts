@@ -1,0 +1,20 @@
+DevOps & SRE Concepts
+
+1. Fundamentals
+
+	• What is DevOps? 
+	• What is SRE? 
+	• Difference between DevOps and SRE. 
+	• Explain Infrastructure as Code. 
+	• Explain Immutable Infrastructure. 
+
+2. Reliability
+	
+	• What are SLI, SLO, and SLA? 
+	• What is MTTR? 
+	• What is MTBF? 
+
+3. Automation
+	
+	• Why is automation important? 
+	• Which tasks have you automated? 
