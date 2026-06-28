@@ -1,0 +1,26 @@
+Ansible
+
+1. Fundamentals
+
+	• What is Ansible? 
+	• Why Ansible? 
+	• Explain Ansible architecture. 
+	• What is Agentless Architecture? 
+
+2. Configuration
+
+	• What are Inventories? 
+	• What are Playbooks? 
+	• What are Roles? 
+	• What are Variables? 
+	• What are Templates? 
+
+3. Security
+
+	• What is Ansible Vault? 
+	• How do you secure secrets? 
+
+4. Troubleshooting
+
+	• Playbook execution failed. How do you troubleshoot? 
+	• Hosts are unreachable. What would you check? 
