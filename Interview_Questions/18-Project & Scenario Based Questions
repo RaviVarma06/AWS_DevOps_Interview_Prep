@@ -1,0 +1,22 @@
+Frequently Asked HR & Project Questions
+Project
+	• Explain your current project architecture. 
+	• Explain your roles and responsibilities. 
+	• Describe your daily activities. 
+	• Which DevOps tools have you used in your project, and why? 
+	• Explain a challenging issue you solved in production. 
+	• Explain your complete deployment workflow. 
+	• Explain your monitoring strategy. 
+	• Explain your disaster recovery strategy. 
+
+Common Scenario-Based Questions
+	• Explain your complete CI/CD pipeline from code commit to production.
+	• Describe the DevOps tools used in your project and why they were chosen.
+	• How do you perform a production deployment?
+	• How do you implement zero-downtime deployments?
+	• What is your rollback strategy if a deployment fails?
+	• Walk through how you would troubleshoot a production outage.
+	• How do you monitor applications and infrastructure after deployment?
+	• How do you ensure security throughout your CI/CD pipeline?
+	• Describe a challenging production issue you resolved and the steps you took.
+	• How do you improve the reliability, scalability, and performance of your DevOps pipeline?
