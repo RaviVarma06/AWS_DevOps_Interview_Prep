@@ -1,0 +1,221 @@
+AWS
+
+1. Compute (EC2 + Auto Scaling)
+
+EC2
+	• How do you design EC2 infrastructure for a production application? 
+	• How do you choose the right EC2 instance type? 
+	• How do you troubleshoot an unreachable EC2 instance? 
+	• EC2 instance CPU is high. How do you investigate? 
+	• EC2 instance is running but application is not accessible. What will you check? 
+	• How do you securely access EC2 instances? 
+	• How do you automate EC2 provisioning? 
+
+AMI
+	• How do you create and use AMIs? 
+	• Difference between AMI and Snapshot. 
+	• How do you manage AMI versions? 
+	• How do you perform application deployment using AMI? 
+
+Instance Types
+	• When would you use Spot Instances? 
+	• What happens if a Spot Instance is terminated? 
+	• Difference between Spot, On-Demand, and Reserved Instances. 
+	• How do you reduce EC2 cost? 
+
+2. Auto Scaling Group (ASG)
+
+Architecture
+	• Explain ASG architecture. 
+	• How does ASG work with Load Balancer? 
+	• Explain the EC2 lifecycle inside ASG. 
+	• How does ASG replace unhealthy instances? 
+	• How does ASG maintain desired capacity? 
+
+Scaling
+	• What are minimum, maximum, and desired capacity? 
+	• Explain different scaling policies. 
+	• Difference between Target Tracking and Step Scaling. 
+	• How do you configure CPU-based scaling? 
+	• How do you scale based on application traffic? 
+	• How do you handle sudden traffic spikes? 
+
+Deployment
+	• How do you deploy new application versions in ASG? 
+	• Difference between in-place deployment and immutable deployment. 
+	• How do you perform zero-downtime deployment using ASG? 
+	• Explain Blue-Green deployment using ASG. 
+	• How do you update Launch Template versions? 
+
+Troubleshooting
+	• ASG is not launching instances. What do you check? 
+	• Instances are launching and immediately terminating. Why? 
+	• ASG is scaling but users still see errors. What do you check? 
+	• New instances are unhealthy in Load Balancer. How do you troubleshoot? 
+
+3. Networking (VPC)
+
+VPC Design
+	• Explain your production VPC architecture. 
+	• How do you design a highly available VPC? 
+	• Difference between Public and Private Subnets. 
+	• Why do we keep application servers in private subnets? 
+	• How do private servers access the internet? 
+
+Components
+	• How does Internet Gateway work? 
+	• How does NAT Gateway work? 
+	• Difference between Internet Gateway and NAT Gateway. 
+	• Explain Route Tables. 
+	• How does routing happen inside VPC? 
+	• Difference between Public Route Table and Private Route Table. 
+
+Security
+	• Difference between Security Groups and NACLs. 
+	• When would you use NACL instead of Security Group? 
+	• How do you troubleshoot network connectivity between servers? 
+	• How do you restrict access between application and database layers? 
+
+4. Load Balancing
+
+ALB / NLB
+	• Difference between ALB and NLB. 
+	• When would you choose ALB vs NLB? 
+	• Explain how ALB routes traffic. 
+	• What is a Target Group? 
+	• How does health check work? 
+	• What happens when targets fail health checks? 
+
+Kubernetes Integration
+	• How do you expose Kubernetes applications using AWS Load Balancers? 
+	• Difference between Kubernetes Service LoadBalancer and Ingress with ALB. 
+	• How does AWS Load Balancer Controller work? 
+	• How do you troubleshoot ALB not routing traffic? 
+
+5. IAM & Security
+
+IAM
+	• How do you design IAM access in AWS? 
+	• Difference between IAM User, Group, and Role. 
+	• Why do applications use IAM Roles instead of Access Keys? 
+	• Explain IAM policy evaluation logic. 
+	• How do you implement least privilege access? 
+
+Security Best Practices
+	• How do you secure AWS accounts? 
+	• How do you prevent access key leakage? 
+	• How do you implement MFA? 
+	• How do you audit IAM activities? 
+	• How do you manage cross-account access? 
+
+6. Storage (S3, EBS, EFS)
+
+S3
+	• How do you design S3 storage for production? 
+	• Difference between S3 Storage Classes. 
+	• Explain S3 Versioning. 
+	• Explain S3 Lifecycle Policies. 
+	• How do you secure S3 buckets? 
+	• How do you prevent accidental S3 deletion? 
+	• Difference between S3 encryption types. 
+
+EBS
+	• Difference between EBS and Instance Store. 
+	• How do you increase EBS volume size? 
+	• How do you take EBS backups? 
+	• What happens when an EC2 instance fails? 
+
+EFS
+	• Difference between EBS and EFS. 
+	• When would you use EFS? 
+	• How do multiple servers access EFS? 
+
+7. Database (RDS)
+
+Architecture
+	• How do you design a production database architecture in AWS? 
+	• Difference between RDS and database installed on EC2. 
+	• Explain RDS architecture. 
+	• How does RDS provide high availability? 
+
+Availability
+	• Difference between Multi-AZ and Read Replica. 
+	• When do you use Multi-AZ? 
+	• When do you use Read Replica? 
+	• How does database failover work? 
+	• What happens when the primary database fails? 
+
+Backup & Recovery
+	• How do you backup RDS? 
+	• Difference between Snapshot and Automated Backup. 
+	• Explain Point-in-Time Recovery. 
+	• How do you restore an RDS database? 
+
+Scaling
+	• How do you scale RDS? 
+	• Difference between vertical and horizontal scaling. 
+	• How do you handle database performance issues? 
+	• How do you identify slow queries? 
+
+Security
+	• How do you secure RDS? 
+	• How do applications securely connect to databases? 
+	• How do you manage database credentials? 
+	• How do you rotate database passwords? 
+
+8. Database + Kubernetes
+
+	• How does Kubernetes application connect to AWS RDS? 
+	• Where do you store database credentials? 
+	• How do you inject database secrets into Pods? 
+	• How do you troubleshoot database connectivity from Pods? 
+	• Should databases run inside Kubernetes? Explain. 
+	• How do you handle database migrations during deployments? 
+
+9. Monitoring & Logging
+
+CloudWatch
+
+	• How do you monitor AWS infrastructure? 
+	• What CloudWatch metrics do you monitor for EC2? 
+	• How do you create CloudWatch alarms? 
+	• How do you configure notifications? 
+	• How do you troubleshoot missing metrics? 
+
+CloudTrail
+
+	• How do you audit AWS activities? 
+	• How do you find who deleted a resource? 
+	• Difference between CloudWatch and CloudTrail. 
+
+10. Secrets Management
+
+	• How do you manage secrets in AWS? 
+	• Difference between Secrets Manager and Parameter Store. 
+	• How do applications retrieve secrets securely? 
+	• How do you rotate secrets automatically? 
+	• Explain AWS KMS usage. 
+
+11. Disaster Recovery & High Availability
+
+	• How do you design a highly available AWS architecture? 
+	• Explain Multi-AZ architecture. 
+	• Explain backup and recovery strategy. 
+	• Difference between Backup and Disaster Recovery. 
+	• Explain RTO and RPO. 
+	• How do you handle region-level failure? 
+
+12. Production Scenario Questions
+
+	• EC2 instance is unreachable. Explain troubleshooting steps. 
+	• Application is slow but CPU is normal. What will you check? 
+	• ASG launched new instances but traffic is not reaching them. 
+	• Database CPU is high. How do you troubleshoot? 
+	• Application cannot connect to RDS. 
+	• Private subnet servers cannot access internet. 
+	• Users receive 503 errors from ALB. 
+	• S3 bucket was accidentally deleted. How do you recover? 
+	• Production database failed. What happens next? 
+	• Traffic increased suddenly by 10x. How will you scale the application? 
+	• How would you design AWS architecture for a highly available application? 
+	• How do you implement zero downtime deployment using AWS services?
