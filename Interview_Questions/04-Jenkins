@@ -1,0 +1,43 @@
+Jenkins
+
+1. Fundamentals
+
+	• What is Jenkins?
+	• Explain Jenkins architecture.
+	• Explain Jenkins Master-Agent architecture.
+	• How do Master and Agents communicate?
+	• Difference between Freestyle and Pipeline jobs.
+	• Difference between Declarative and Scripted Pipelines.
+	• What type of pipeline have you used?
+	• What are Environment Variables?
+	• What is agent any?
+	• Difference between agent any and a specific agent label.
+
+2. Pipeline
+
+	• Explain your CI/CD pipeline end to end.
+	• Explain each stage in your pipeline.
+	• How do you trigger pipelines automatically?
+	• What are Shared Libraries?
+	• How do you reuse pipeline code?
+
+3. Integrations
+
+	• How do you integrate SonarQube with Jenkins?
+	• How do you integrate Nexus with Jenkins?
+	• How do you integrate Docker with Jenkins?
+	• How do you deploy to Kubernetes using Jenkins?
+
+4. Security & Optimization
+
+	• How do you secure Jenkins?
+	• How do you manage credentials?
+	• How do you optimize Jenkins pipelines?
+	• How do you improve pipeline execution time?
+
+5. Troubleshooting
+
+	• How do you debug a failed pipeline?
+	• How do you troubleshoot Jenkins agent issues?
+	• Pipeline is stuck. What do you check?
+	• Jenkins is slow. How do you optimize it?
