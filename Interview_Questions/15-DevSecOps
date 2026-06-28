@@ -1,0 +1,24 @@
+DevSecOps
+
+1. Fundamentals
+
+	• What is DevSecOps? 
+	• What is Shift Left Security? 
+	• Difference between SAST, DAST, and SCA. 
+
+	• 2. Security Tools
+
+	• How do you integrate Trivy into Jenkins? 
+	• How do you scan Docker images? 
+	• How do you scan Kubernetes manifests? 
+	• How do you scan Terraform code? 
+
+3. Secrets
+
+	• How do you manage secrets securely? 
+	• How do you prevent secrets from being committed to Git? 
+
+4. Best Practices
+
+	• How do you secure a CI/CD pipeline? 
+	• How do you implement security gates in deployments? 
