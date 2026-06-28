@@ -1,0 +1,50 @@
+Terraform
+
+1. Fundamentals
+
+	• What is Infrastructure as Code (IaC)?
+	• Why Terraform?
+	• Why Terraform over other IaC tools?
+	• Explain Terraform architecture.
+	• Explain the Terraform workflow.
+	• Explain the Terraform lifecycle.
+
+2. Configuration
+
+	• What are Variables?
+	• What are Locals?
+	• What is a tfvars file?
+	• Difference between Resource and Data Source.
+	• Difference between count and for_each.
+	• What are Modules?
+	• How do you apply a specific module?
+	• What are Workspaces?
+	• What are Terraform lifecycle meta-arguments (create_before_destroy, prevent_destroy, ignore_changes)?
+
+3. State Management
+
+	• What is the Terraform State file?
+	• Where do you store the State file?
+	• Why should the State file not be stored in Git?
+	• How do you secure the State file?
+	• How do you handle State locking?
+
+4. Deployment
+
+	• How do you provision infrastructure using Terraform?
+	• What is the purpose of terraform init, plan, apply, and destroy?
+	• How do you manage multiple environments?
+
+5. Security
+
+	• How do you handle sensitive data in Terraform?
+	• How do you secure secrets in Terraform?
+	• How do you integrate Terraform with secret management solutions?
+
+6. Troubleshooting
+
+	• What happens if two engineers run terraform apply simultaneously?
+	• terraform apply fails after creating some resources. How do you recover?
+	• How do you detect and resolve infrastructure drift?
+	• What if someone manually changes resources in the cloud console?
+How do you recover from a corrupted or lost State file?
