@@ -1,0 +1,89 @@
+Kubernetes
+
+1. Fundamentals
+
+	• Explain Kubernetes architecture.
+	• Explain Control Plane components.
+	• Explain Worker Node components.
+	• What happens if etcd goes down?
+	• What is a Pod?
+	• What are ReplicaSets and Replicas?
+	• Difference between Deployment, StatefulSet, and DaemonSet.
+	• What is a Job? What is a CronJob?
+
+2. Networking
+
+	• What are Kubernetes Services?
+	• Types of Services.
+	• Difference between ClusterIP, NodePort, and LoadBalancer.
+	• What is Service Discovery?
+	• How do Pods communicate within a cluster?
+	• How do microservices communicate with each other?
+	• How do you expose an application?
+
+3. Ingress
+
+	• What is Ingress?
+	• What is an Ingress Controller?
+	• Difference between Ingress and LoadBalancer.
+	• Which Ingress Controller have you used?
+	• Difference between Layer 4 and Layer 7 routing.
+	• What routing methods does Ingress support (Host-based, Path-based, Header-based)?
+
+4. Storage
+
+	• What are PV and PVC?
+	• What is a StorageClass?
+	• Have you used persistent storage in your project?
+
+5. Configuration Management
+
+	• What are ConfigMaps?
+	• What are Secrets?
+	• How do you inject confidential data into Pods?
+	• How do you configure database connectivity for Pods?
+
+6. Scheduling
+
+	• What is Node Affinity?
+	• What is Pod Affinity?
+	• What is Pod Anti-Affinity?
+	• What are Taints and Tolerations?
+	• How do you schedule Pods on specific nodes while spreading replicas across nodes?
+
+7. Deployment Strategies
+
+	• What deployment strategies do you know?
+	• Which strategy have you used?
+	• Explain Rolling Update.
+	• Explain Blue-Green Deployment.
+	• Explain Canary Deployment.
+	• How do you manage database changes during Blue-Green deployments?
+	• How do you rollback a failed deployment?
+
+8. Cluster Operations
+
+	• What type of Kubernetes cluster are you using?
+	• How do you upgrade a Kubernetes cluster?
+	• How do you drain a node?
+	• What does the cordon command do?
+	• What is a Pod Disruption Budget?
+
+9. Security
+
+	• How do you secure Kubernetes Secrets?
+	• Explain RBAC.
+	• Explain Service Accounts.
+	• Explain Network Policies.
+
+10. Commands
+
+	• Which kubectl commands do you use daily?
+
+11. Troubleshooting
+
+	• How do you troubleshoot CrashLoopBackOff?
+	• How do you troubleshoot ImagePullBackOff?
+	• How do you troubleshoot Pending Pods?
+	• What would you check if a Deployment succeeds but the application is inaccessible?
+Node is NotReady. What steps would you take?
