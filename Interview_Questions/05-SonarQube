@@ -1,0 +1,30 @@
+SonarQube
+
+1. Fundamentals
+
+	• What is SonarQube? 
+	• Why is SonarQube used? 
+	• Explain SonarQube architecture. 
+	• What are Quality Gates? 
+	• What are Quality Profiles? 
+	• What programming languages does SonarQube support? 
+
+2. Configuration
+
+	• How do you configure SonarQube with Jenkins? 
+	• How do you configure SonarScanner? 
+	• How do you configure projects in SonarQube? 
+	• How do you exclude files or directories from analysis? 
+
+3. Security & Code Quality
+
+	• What types of issues does SonarQube detect? 
+	• What are Bugs, Vulnerabilities, and Code Smells? 
+	• What is Technical Debt? 
+	• How do you enforce code quality before deployment? 
+
+4. Troubleshooting
+
+	• Quality Gate failed. What would you do? 
+	• Sonar analysis is not generating reports. How do you troubleshoot? 
+
